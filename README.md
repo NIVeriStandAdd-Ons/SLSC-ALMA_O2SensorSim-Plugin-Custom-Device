@@ -7,7 +7,7 @@ LabVIEW 2017
 
 ### Built Availability ###
 
-Builds of this IP are available on the NI VeriStand Add-ons Community.
+Only source-code is supplied, no built version.
 
 ### Quality, Limitations ###
 
