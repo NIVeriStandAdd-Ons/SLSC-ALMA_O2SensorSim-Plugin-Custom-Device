@@ -13,6 +13,7 @@
 			<Item Name="#ch_choose.vi" Type="VI" URL="../#ch_choose.vi"/>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Initialization_channels.vi" Type="VI" URL="../Initialization_channels.vi"/>
+			<Item Name="Initialization_default.vi" Type="VI" URL="../Initialization_default.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 			<Item Name="Read_image.vi" Type="VI" URL="../Read_image.vi"/>
 			<Item Name="Test_SerialNum.vi" Type="VI" URL="../Test_SerialNum.vi"/>
@@ -20,4 +21,5 @@
 		<Item Name="SubVIs" Type="Folder"/>
 		<Item Name="Types" Type="Folder"/>
 	</Item>
+	<Item Name="DeleteChannels.vi" Type="VI" URL="../DeleteChannels.vi"/>
 </Library>
