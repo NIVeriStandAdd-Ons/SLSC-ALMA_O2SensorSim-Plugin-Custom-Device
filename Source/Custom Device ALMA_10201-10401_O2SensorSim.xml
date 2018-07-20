@@ -420,7 +420,7 @@
 			<GUID>c82b20b8-f784-4ce0-9686-ded74c652b65</GUID>
 			<Glyph>
 				<Type>To Common Doc Dir</Type>
-				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\Glyphs\Channel Output.png</Path>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\Glyphs\Channel Input.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -438,7 +438,7 @@
 			<GUID>c82b20b8-f784-4ce0-9686-ded74c652b66</GUID>
 			<Glyph>
 				<Type>To Common Doc Dir</Type>
-				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\Glyphs\Channel Input.png</Path>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\Glyphs\Channel Output.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -456,7 +456,7 @@
 			<GUID>c82b20b8-f784-4ce0-9686-ded74c652b67</GUID>
 			<Glyph>
 				<Type>To Common Doc Dir</Type>
-				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\Glyphs\Channel Output.png</Path>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\Glyphs\Channel Input.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
