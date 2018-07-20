@@ -2,10 +2,10 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
 	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
 	<AddMenu>
-		<eng>SLSC Plug-ins::ALMA_10201-10401_O2SensorSim</eng>
-		<loc>SLSC Plug-ins::ALMA_10201-10401_O2SensorSim</loc>
+		<eng>SLSC Plug-ins::ALMA_O2SensorSim</eng>
+		<loc>SLSC Plug-ins::ALMA_O2SensorSim</loc>
 	</AddMenu>
-	<Version>1.0.2</Version>
+	<Version>1.0.3</Version>
 	<Type>Asynchronous</Type>
 	<MaxOccurrence>10</MaxOccurrence>
 	<MainPageGUID>b95ed1a2-440b-4256-b4a3-412d4d53b190</MainPageGUID>
@@ -64,9 +64,12 @@
 	<Pages>
 	<Page>
       <Name>
-        <eng>ALMA_10201-10401_O2SensorSim</eng>
-        <loc>ALMA_10201-10401_O2SensorSim</loc>
+        <eng>ALMA_O2SensorSim</eng>
+        <loc>ALMA_O2SensorSim</loc>
       </Name>
+	  <DisallowRenaming>true</DisallowRenaming>
+		<DeleteProtection>true</DeleteProtection>
+		<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
       <GUID>b95ed1a2-440b-4256-b4a3-412d4d53b190</GUID>
 	  <Glyph>
 				<Type>To Common Doc Dir</Type>
@@ -141,13 +144,41 @@
 						<loc></loc>
 					</Documentation>
 				</Button>
+				<Button>
+					<ID>Discovery</ID>
+					<Glyph>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\Glyphs\SLSC_Module.png</Path>
+					</Glyph>
+					<Type>Notification</Type>
+					<ReferencedGUID></ReferencedGUID>
+					<ButtonText>
+						<eng>Module Discovery</eng>
+						<loc>Module Discovery</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Module Discovery</eng>
+						<loc>Module Discovery</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Try to auto-identify the O2SensorSim module</eng>
+						<loc>Try to auto-identify the O2SensorSim module</loc>
+					</TipStrip>
+					<Documentation>
+						<eng></eng>
+						<loc></loc>
+					</Documentation>
+				</Button>
 			</ButtonList>
     </Page>
 	<Page>
       <Name>
-        <eng>ALMA_10201-10401_O2SensorSim</eng>
-        <loc>ALMA_10201-10401_O2SensorSim</loc>
+        <eng>ALMA_O2SensorSim</eng>
+        <loc>ALMA_O2SensorSim</loc>
       </Name>
+	  <DisallowRenaming>true</DisallowRenaming>
+		<DeleteProtection>true</DeleteProtection>
+		<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
       <GUID>ec94fc63-336f-4d75-8121-0362e05bb837</GUID>
 	  <Glyph>
 				<Type>To Common Doc Dir</Type>
@@ -222,6 +253,31 @@
 						<loc></loc>
 					</Documentation>
 				</Button>
+				<Button>
+					<ID>Discovery</ID>
+					<Glyph>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\Glyphs\SLSC_Module.png</Path>
+					</Glyph>
+					<Type>Notification</Type>
+					<ReferencedGUID></ReferencedGUID>
+					<ButtonText>
+						<eng>Module Discovery</eng>
+						<loc>Module Discovery</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Module Discovery</eng>
+						<loc>Module Discovery</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Try to auto-identify the O2SensorSim module</eng>
+						<loc>Try to auto-identify the O2SensorSim module</loc>
+					</TipStrip>
+					<Documentation>
+						<eng></eng>
+						<loc></loc>
+					</Documentation>
+				</Button>
 			</ButtonList>
     </Page>
 		<Page>
@@ -229,6 +285,9 @@
 				<eng>Page1</eng>
 				<loc>Page1</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>e034f56b-6ead-4a7d-959d-73e50ffe2abf</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
@@ -244,6 +303,9 @@
 				<eng>Page2</eng>
 				<loc>Page2</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>1a22a596-5480-47c7-a053-b94d1eca3b0e</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
@@ -252,6 +314,154 @@
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
 				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\ALMA_10201-10401_O2SensorSim Configuration.llb\Page2.vi</Path>
+			</Item2Launch>
+		</Page>
+		
+		
+		
+		<Page>
+			<Name>
+				<eng>Status</eng>
+				<loc>Status</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>5eaf23de-b745-4c98-9863-0727b1949206</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\Glyphs\system variable.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\ALMA_10201-10401_O2SensorSim Configuration.llb\Page1.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Setpoint</eng>
+				<loc>Setpoint</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>5eaf23de-b745-4c98-9863-0727b1949207</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\ALMA_10201-10401_O2SensorSim Configuration.llb\Page1.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Feedback</eng>
+				<loc>Feedback</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>5eaf23de-b745-4c98-9863-0727b1949208</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\ALMA_10201-10401_O2SensorSim Configuration.llb\Page1.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>PID</eng>
+				<loc>PID</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>5eaf23de-b745-4c98-9863-0727b1949209</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\ALMA_10201-10401_O2SensorSim Configuration.llb\Page1.vi</Path>
+			</Item2Launch>
+		</Page>
+				
+		<Page>
+			<Name>
+				<eng>Status Ch</eng>
+				<loc>Status Ch</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>c82b20b8-f784-4ce0-9686-ded74c652b64</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\ALMA_10201-10401_O2SensorSim Configuration.llb\Channel Interface.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Setpoint Ch</eng>
+				<loc>Setpoint Ch</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>c82b20b8-f784-4ce0-9686-ded74c652b65</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\Glyphs\Channel Output.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\ALMA_10201-10401_O2SensorSim Configuration.llb\Channel Interface.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Feedback Ch</eng>
+				<loc>Feedback Ch</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>c82b20b8-f784-4ce0-9686-ded74c652b66</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\Glyphs\Channel Input.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\ALMA_10201-10401_O2SensorSim Configuration.llb\Channel Interface.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>PID Ch</eng>
+				<loc>PID Ch</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>c82b20b8-f784-4ce0-9686-ded74c652b67</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\Glyphs\Channel Output.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\ALMA_10201-10401_O2SensorSim\ALMA_10201-10401_O2SensorSim Configuration.llb\Channel Interface.vi</Path>
 			</Item2Launch>
 		</Page>
 	</Pages>

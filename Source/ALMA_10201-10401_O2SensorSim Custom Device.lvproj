@@ -33,6 +33,11 @@
 		<Item Name="Glyphs" Type="Folder">
 			<Item Name="SLSC_Module.png" Type="Document" URL="../System Explorer/Glyphs/SLSC_Module.png"/>
 			<Item Name="SLSC_Module_disable.png" Type="Document" URL="../System Explorer/Glyphs/SLSC_Module_disable.png"/>
+			<Item Name="default fpga channel.png" Type="Document" URL="../System Explorer/Glyphs/default fpga channel.png"/>
+			<Item Name="system variable.png" Type="Document" URL="../System Explorer/Glyphs/system variable.png"/>
+			<Item Name="Channel Input.png" Type="Document" URL="../System Explorer/Glyphs/Channel Input.png"/>
+			<Item Name="Channel Output.png" Type="Document" URL="../System Explorer/Glyphs/Channel Output.png"/>
+			<Item Name="default fpga category.png" Type="Document" URL="../System Explorer/Glyphs/default fpga category.png"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
@@ -41,9 +46,8 @@
 		<Item Name="ALMA_10201-10401_O2SensorSim Shared.lvlib" Type="Library" URL="../Shared/ALMA_10201-10401_O2SensorSim Shared.lvlib"/>
 		<Item Name="ALMA_10201-10401_O2SensorSim System Explorer.lvlib" Type="Library" URL="../System Explorer/ALMA_10201-10401_O2SensorSim System Explorer.lvlib"/>
 		<Item Name="TestLV_RT Driver VI.vi" Type="VI" URL="../Engine/TestLV_RT Driver VI.vi"/>
-		<Item Name="Custom Device ALMA_10201-10401_O2SensorSim.xml" Type="Document" URL="../Custom Device ALMA_10201-10401_O2SensorSim.xml"/>
 		<Item Name="SLSC Module ALMA_10201-10401_O2SensorSim.xml" Type="Document" URL="../SLSC Module ALMA_10201-10401_O2SensorSim.xml"/>
-		<Item Name="Global_VS_ref.vi" Type="VI" URL="../System Explorer/Global_VS_ref.vi"/>
+		<Item Name="Custom Device ALMA_10201-10401_O2SensorSim.xml" Type="Document" URL="../Custom Device ALMA_10201-10401_O2SensorSim.xml"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Boolean Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D Boolean Array Changed__ogtk.vi"/>
@@ -261,7 +265,7 @@
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Custom Device ALMA_10201-10401_O2SensorSim.xml</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/SLSC Module ALMA_10201-10401_O2SensorSim.xml</Property>

@@ -6,6 +6,7 @@
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Extra Pages" Type="Folder">
+				<Item Name="Channel Interface.vi" Type="VI" URL="../Channel Interface.vi"/>
 				<Item Name="EnableDisableCD.vi" Type="VI" URL="../EnableDisableCD.vi"/>
 				<Item Name="Page1.vi" Type="VI" URL="../Page1.vi"/>
 				<Item Name="Page2.vi" Type="VI" URL="../Page2.vi"/>
@@ -21,5 +22,4 @@
 		<Item Name="SubVIs" Type="Folder"/>
 		<Item Name="Types" Type="Folder"/>
 	</Item>
-	<Item Name="DeleteChannels.vi" Type="VI" URL="../DeleteChannels.vi"/>
 </Library>
